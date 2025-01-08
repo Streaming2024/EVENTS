@@ -1,22 +1,24 @@
 /* Section Styling */
-#yosintv-npl .event, 
-#yosintv-laliga .event, 
-#yosintv-epl .event, 
-#yosintv-bundesliga .event, 
-#yosintv-seriea .event, 
-#yosintv-cricket .event,
-#yosintv-football .event {
+#yonotv-npl .event, 
+#yonotv-laliga .event, 
+#yonotv-epl .event, 
+#yonotv-bundesliga .event, 
+#yonotv-seriea .event, 
+#yonotv-cricket .event,
+#yonotv-jay .event,
+#yonotv-cricleague .event,
+#yonotv-football .event {
     border-color: #000000;
 }
 
 /* Heading Colors */
-#yosintv-football h2,
-#yosintv-cricket h2 {
+#yonotv-football h2,
+#yonotv-cricket h2 {
     color: #1a73e8;
 }
 
 /* Match Containers */
-.yosintv-container {
+.yonotv-container {
     width: 100%;
     margin: 0 auto;
 }
@@ -33,7 +35,7 @@
 }
 
 /* Match Buttons */
-.yosintv-button {
+.yonotv-button {
     font-weight: 700;
     font-family: Arial, sans-serif;
     display: block;
@@ -50,7 +52,7 @@
     cursor: pointer;
 }
 
-.yosintv-button:hover {
+.yonotv-button:hover {
     background-color: rgb(220, 0, 0); /* Darker red when hovered */
 }
 
@@ -134,12 +136,12 @@
     margin-top: 20px;
 }
 
-.yosintv-button {
+.yonotv-button {
     font-weight: bold;
     margin-top: 20px;
 }
 
-.yosintv-container {
+.yonotv-container {
     margin: 10px 0;
 }
 
