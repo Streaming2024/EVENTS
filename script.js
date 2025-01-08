@@ -1,15 +1,16 @@
         // List of leagues and their corresponding JSON files
         const leagues = [
-           { id: 'yosintv-cricket', file: 'cricket.json', title: 'Cricket' },
-           { id: 'yosintv-cleague', file: 'cleague.json', title: 'Leagues' },
-            { id: 'yosintv-npl', file: 'npl.json', title: 'NPL T20' },
-           { id: 'yosintv-ucl', file: 'ucl.json', title: 'Champions League' },
-            { id: 'yosintv-football', file: 'football.json', title: 'Football' },
-            { id: 'yosintv-epl', file: 'epl.json', title: 'EPL' },
-            { id: 'yosintv-laliga', file: 'laliga.json', title: 'La Liga' },
-            { id: 'yosintv-seriea', file: 'seriea.json', title: 'Serie A' },
-            { id: 'yosintv-ligue1', file: 'ligue1.json', title: 'Ligue 1' },
-            { id: 'yosintv-bundesliga', file: 'bundesliga.json', title: 'Bundesliga' }
+           { id: 'yonotv-cricket', file: 'cricket.json', title: 'Cricket' },
+           { id: 'yonotv-cricleague', file: 'cricleague.json', title: 'Other Leagues' },
+          { id: 'yonotv-jay', file: 'jay.json', title: 'Jay Torphy 2024' },
+            { id: 'yonotv-npl', file: 'npl.json', title: 'NPL T20' },
+           { id: 'yonotv-ucl', file: 'ucl.json', title: 'Champions League' },
+            { id: 'yonotv-football', file: 'football.json', title: 'Football' },
+            { id: 'yonotv-epl', file: 'epl.json', title: 'EPL' },
+            { id: 'yonotv-laliga', file: 'laliga.json', title: 'La Liga' },
+            { id: 'yonotv-seriea', file: 'seriea.json', title: 'Serie A' },
+            { id: 'yonotv-ligue1', file: 'ligue1.json', title: 'Ligue 1' },
+            { id: 'yonotv-bundesliga', file: 'bundesliga.json', title: 'Bundesliga' }
         ];
 
         // Fetch and render data for each league
